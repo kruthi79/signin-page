@@ -19,20 +19,14 @@
 <style >
 
 body{
+background-size:1000px 500px;
 background-position:center;
 }
 
 </style>
-<style>
-p.pos_fixed {
-    position: fixed;
-    top: 30px;
-    right: 100px;
-    color: black;
-}
-</style>
+
 </head>
-<body background="flower.jpg">
+<body background="starplus.jpg">
 
 
 
@@ -47,9 +41,10 @@ p.pos_fixed {
               
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <button class="active" onclick="location.href='Home.html'">Home</button>
+                  <button onclick="location.href='Shows.html'">Shows</button>
+                  <button onclick="location.href='Blog.html'">Blog</button>
+                  
                 </ul>
               </nav>
             </div>
@@ -58,7 +53,7 @@ p.pos_fixed {
           <div class="container">
 
       <form class="form-signin">
-        <h2 class="pos_fixed">Please sign in</h2>
+      <h2 class="form-sign-in-heading">please sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
@@ -68,8 +63,8 @@ p.pos_fixed {
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
+        <button onclick="location.href='signin.html'">Sign in</button>
+     </form>
 
     </div>
     
